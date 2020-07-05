@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+	<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">    <!-- std http-->
+			<title> Invaders! </title>
+			<meta name="description" content="Invaders!" >	
+			<meta  name = "keywords" lang = " en " content = " game, action" >          <!-- tag ricerche -->				
+			<meta http-equiv="expires" content="Mon, 3 Mar 2014 20:30:00 GMT" ><!-- verifica cache -->			
+			<meta http-equiv="Content-Language" content="Italian">
+			<link rel="shortcut icon" href="img/al.ico">
+			<LINK rel="stylesheet" href="css/style.css" type="text/css" media = "screen" >	
+			<script type="text/javascript" src="js/game.js"> </script>	
+			<script type="text/javascript" src="js/layout.js"> </script>
+			<script type="text/javascript" src="js/input.js"> </script>
+	</head>
+	
+	<body onLoad= "begin()"> 
+		
+		<div class="title"> <!-- sezione titolo -->
+			<h1> <img src = "img/title.png" id = "ititle" alt = " Invaders!" > </h1>
+		</div>
+		
+		<div id = "navigazione">
+				<p>
+				<a href="index.html" onClick = "begin()"> <img src="./img/home.png" onMouseOver="cambia(1, 'over', 0)" onMouseOut="cambia(1, 'out', 0)" id="h" alt="home"></a>
+				<a href="guide.html"> <img src="./img/guide1.png" onMouseOver="cambia(2, 'over', 0)" onMouseOut="cambia(2, 'out', 0)" id="g" alt="guide"></a>
+				<a href="classifica.php"> <img src="./img/classifica1.png" onMouseOver="cambia(3, 'over', 0)" onMouseOut="cambia(3, 'out', 0)" id="c" alt="classifica"></a>
+				<a href="about.html"> <img src="./img/about1.png" onMouseOver="cambia(4, 'over', 0)" onMouseOut="cambia(4, 'out', 0)" id="a" alt="about"></a>
+			</p>
+		</div>
+		
+		<div class = "sito"> <!-- sezione corpo -->
+			<div id = "menu"> <!-- sezione menu -->			
+				<table border = "1">				
+					<tr>
+						<td>Score</td><td id="score">0</td>
+					<tr>
+						<td>Life</td><td id="life">3</td>
+					<tr>
+						<td>Bullets</td><td id="bullets">2</td>
+				</table>							
+			</div>			
+			<div id = "game"> <!-- sezione gioco -->				
+				<img src = "img/universo3.png" id = "play" alt = "sfondo universo" onclick="gamestart();">				
+			</div>
+		</div>
+	
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

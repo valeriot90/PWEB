@@ -1,0 +1,143 @@
+body
+{
+	/*z-index: -1;*/
+	background: #000000;
+}
+
+#ititle{
+	z-index: 1;
+	color: #00FFFF;		
+	position: absolute;
+	height: 80px;
+	top: 0px;
+}
+
+.blue{
+	color:blue;
+}
+
+/*menu navigazione con stili separati: le immagini risultano fisse anche riducendo la finestra del browser*/
+#h{
+	color: #00FFFF;	
+	position: absolute;
+	z-index: 1;
+	left: 420px;
+	top: 30px;
+	height: 45px;	
+	font-size:24pt;
+}
+
+#g{
+	color: #00FFFF;	
+	position: absolute;
+	z-index: 1;
+	left: 550px;
+	top: 30px;
+	height: 45px;	
+	font-size:24pt;
+}
+
+#c{
+	color: #00FFFF;	
+	position: absolute;
+	z-index: 1;
+	left: 700px;
+	top: 30px;
+	height: 45px;	
+	font-size:24pt;
+}
+
+#a{
+	color: #00FFFF;	
+	position: absolute;
+	z-index: 1;
+	left: 900px;
+	top: 30px;
+	height: 45px;	
+	font-size:24pt;
+}
+
+#guide{
+	z-index: 1;
+	color: #00FFFF;	
+	position: relative;
+	top: 150px;
+	text-align: center;
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:20px;
+}
+
+td
+{	
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	color: #00FFFF;	
+	font-size: 20pt;
+	font-family: "Times New Roman",Georgia,Serif;
+	font-style:italic;
+	cursor: pointer; 	
+	font-weight: bold;
+	position: relative;
+}
+
+#menu
+{
+	color: #00FFFF;	
+	position: absolute;
+	z-index: 1;
+	top: 250px;
+}
+
+#divclassifica
+{
+	color: #00FFFF;	
+	position: relative;
+	top: 150px;
+	height: 500px;
+	position: absolute;    
+    left: 38%;
+	text-align: center;
+	overflow: scroll;
+	overflow-x:hidden; /*css 3*/
+}
+
+/*z-index FONDAMENTALE PER LA VISUALIZZAZIONE DELLE IMMAGINI SU PIù
+LIVELLI, ALTRIMENTI RIMANGONO NASCOSTE!!!*/
+.sito
+{
+	z-index: 0;
+	width: 100%;
+}
+
+#play
+{
+	z-index: 2;
+	position: absolute;
+	left: 225px;
+	top: 80px;
+	height:	600px;
+	width: 1000px;
+	cursor: crosshair;
+}
+
+#shuttle
+{
+	position: absolute;
+	z-index: 3;
+	cursor: crosshair;
+}
+
+.objcasual{
+	z-index: 3;
+	height:60px;
+	width: 80px;
+	cursor: crosshair;
+}
+
+.mobjcasual{
+	z-index: 3;
+	width: 30px;
+	height: 7px;
+	cursor: crosshair;
+}
