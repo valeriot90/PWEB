@@ -1,6 +1,6 @@
 ###############################################################
 # PWEB                                                        #
-# Project for course of Web Design (Progettazione Web)        #
+# Project for Web Design (Progettazione Web) course           #
 #                                                             #
 # Academic code for academic purposes only.                   #
 ###############################################################
